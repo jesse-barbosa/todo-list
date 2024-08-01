@@ -8,7 +8,7 @@
             @foreach($tasks as $task)
                 <a href="{{ route('tasks.show', $task->id) }}" class="link link-dark link-underline link-underline-opacity-0">
                     <li class="list-group-item py-3 fw-semibold">
-                        {{ $task->title }}z
+                        {{ $task->title }}
                     </li>
                 </a>
             @endforeach
